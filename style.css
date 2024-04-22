@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    min-height: 100vh;
+    align-items: center;
+}
+.form{
+    position: relative;
+    display: grid;
+}
+span{
+    display: grid;
+    background-color: yellow;
+    border: 1px solid darkblue;
+    place-content: center;
+    color: chartreuse;
+    height: 60px;
+    width: 80px;
+}
+.value{
+    padding: 40px;
+    width: 320px;
+    grid-column: span 4;
+    font-size: 30px;
+    background-color: cadetblue;
+    text-align: right;
+}
+span:active{
+    background-color: slateblue;
+    color: aqua;
+}
+.clear{
+    background-color: blueviolet;
+}
+.equal{
+    height: 89px;
+    margin-top: -30px;
+    background-color: azure;
+    grid-row: span 2;
+}
+.kurung1{
+    height: 30px;
+    width: 40px;
+}
+.kurung2{
+    height: 30px;
+    width: 40px;
+    top: 298px;
+    right: 0px;
+    position: absolute;
+}
